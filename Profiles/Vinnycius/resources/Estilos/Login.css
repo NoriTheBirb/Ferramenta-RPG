@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: "TituloCyber";
+    src: url("../fontes/Aquire-BW0ox.otf");
+}
+
+*{
+    font-family: "TítuloCyber";
+}
+
+:root{
+    --CorFonteRoxo: #ad0de2;
+    --corPreto: #070908;
+    --CorFonteBranco: #BCE6DA;
+    --corRoxoEscuro: #14081C;
+    --cor5: #05080D;
+}
+
+body {
+    background-color: rgb(14, 14, 14);
+    background-image: url(../Imagens/Background.gif);
+}
+
+h1 {
+    color: #BCE6DA;
+    font-size: medium;
+    font-family: TituloCyber;
+    background-image: url();
+    margin-left: 5px;
+}
+
+main {
+    position: absolute;
+    top: 15%;
+    right: 67%;
+    border-width: initial;
+    border-style: solid;
+    border-image: initial;
+    border-color: var(--CorFonteBranco);
+    width: 30%;
+    height: 23%;
+}
+
+form#loginForm {
+    position: absolute;
+    top: 15%;
+    right: 52%;
+    border-width: initial;
+    width: 21%;
+    height: 0%;
+
+    background-color: black;
+}
+
+input#enviar {
+    position: absolute;
+    top: 72%;
+    right: 8%;
+
+    background-color: var(--corPreto);
+    border: solid;
+    border-color: var(--CorFonteBranco);
+    color: var(--CorFonteRoxo);
+    border-radius: 40px;
+    font-family: TituloCyber;
+    height: 30px;
+    width: 100px;
+}
+
+input#enviar:hover {
+    background-color: var(--CorFonteBranco);
+    border-color: var(--CorFonteRoxo);
+    color: var(--corPreto);
+    box-shadow: 1px 1px 20px 8px var(--CorFonteBranco);
+    transform: translate(-3px, -3px);
+    transition: transform 0s ease-out 0s, border 0s ease 0s;
+}
+
+input#senha {
+    background-color: black;
+    border: solid var(--CorFonteBranco);
+    border-radius: 40px;
+    width: 220px;
+    height: 17px;
+    position: absolute;
+    top: 23px;
+    right: -98px;
+    color: #ad0de2;
+    
+}
+
+input#senha:hover{
+    background-color: var(--CorFonteBranco);
+    border-color: var(--CorFonteRoxo);
+    color: var(--corPreto);
+    box-shadow: 1px 1px 20px 1px var(--CorFonteBranco);
+    transform: translate(-0.1px, -0.1px);
+    transition: transform 0.1s ease-out 0s, border 0s ease 0s;
+}
+
+input#senha:focus-within {
+    background-color: var(--CorFonteBranco);
+    border-color: var(--CorFonteRoxo);
+    color: var(--corPreto);
+    box-shadow: 1px 1px 20px 1px var(--CorFonteBranco);
+    transform: translate(-0.1px, -0.1px);
+    transition: transform 0.1s ease-out 0s, border 0s ease 0s;
+}
+
+::placeholder {
+    color: var(--CorFonteRoxo);
+    font-family: TituloCyber;
+    font-size: 12px;
+    opacity: 75%;
+    font-weight: bolder;
+}
+
+iframe {
+    position: absolute;
+    top: -1%;
+    left: 59%;
+    width: 35%;
+    height: 101%;
+    opacity: 0.7;
+
+}

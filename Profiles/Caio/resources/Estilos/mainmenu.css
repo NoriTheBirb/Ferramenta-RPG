@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "TituloCyber";
+    src: url("../fontes/Aquire-BW0ox.otf");
+}
+
+/*@font-face {
+    font-family: "CorpoCyber";
+    src: url("Fontes/EurostileEF-Regular.otf");
+}*/
+
+*{
+    font-family: "TituloCyber";
+}
+
+:root{
+    --CorFonteRoxo: #ad0de2;
+    --corPreto: #070908;
+    --CorFonteBranco: #BCE6DA;
+    --corRoxoEscuro: #14081C;
+    --cor5: #05080D;
+}
+
+html { 
+    background-image: url("../Imagens/Background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+    font-size: x-large;
+    color: white;
+    object-fit: fill;
+    background-position: center center;
+    background-color: black;
+    
+}
+
+header {
+    
+    font-size: larger;
+   
+    color: var(--cor3);
+    border-width: 25px;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    font-family: "TituloCyber";
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+main {
+    height: 10%;
+    width: 35%;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 11%;
+}
+
+main > a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--CorFonteRoxo);
+} 
+
+p:hover {
+    background-color: var(--CorFonteBranco);
+    color:  var(--corPreto);
+    border-color: var(--CorFonteRoxo);
+}
+
+p {
+    border: solid;
+    border-radius: 10px;
+    border-width: 5%;
+    background-color: var(--corPreto);
+    border-color: var(--CorFonteBranco);
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 24%;
+    margin-right: 50%;
+}
+
+footer {
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 20%;
+    margin-bottom: 1%;
+    
+}
