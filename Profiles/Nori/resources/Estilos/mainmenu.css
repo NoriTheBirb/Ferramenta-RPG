@@ -93,3 +93,17 @@ footer {
     margin-bottom: 1%;
     
 }
+
+div#nor {
+    border: solid var(--CorFonteBranco);
+    position: absolute;
+    top: 1%;
+    right: 87.5%;
+    overflow: hidden;
+    width: 12%;
+    height: 18%;
+}
+
+img {
+    margin-top: -91%;
+}
