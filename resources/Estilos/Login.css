@@ -126,3 +126,13 @@ iframe {
     opacity: 0.7;
 
 }
+
+div#roxo {
+    position: absolute;
+    top: 1%;
+    right: 22%;
+    width: 21%;
+    height: 0%;
+    background-color: black;
+    opacity: 60%;
+}
