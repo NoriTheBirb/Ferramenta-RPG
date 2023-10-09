@@ -45,7 +45,7 @@ div {
 
 html {
     background-color: rgb(24, 24, 24);
-    background-image: url(../Imagens/Background.gif);
+    background-image: url(resources/Imagens/Background.gif);
 }
 
 main#bloco {
@@ -181,5 +181,9 @@ div#Nor:hover {
     transform: translate(-3px, -3px);
     transition: transform 0.3s, border 0.7s;
     
+}*/
+
+.imagens {
+    opacity: 100%;
 }
 
