@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="../../Resources/Estilos/Login.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <h1>__Verificação De Segurança:</h1>
+
+        <form id="loginForm">
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Insira sua senha de 5 digitos"  maxlength="4" minlength="4" required>
+        </form>
+        <input id="enviar" type="submit" value="Entrar">
+    </main>
+
+   <iframe id="roxo" src="../../Resources/Imagens/ezgif.com-resize.gif" frameborder="0"></iframe> 
+
+  
+
+<script>
+    document.getElementById('loginForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var senha = document.getElementById('senha').value;
+
+        // Verificar a senha e redirecionar para páginas diferentes
+        if (senha === '3354') {
+            window.location.href = '../../../Profiles/3 - Ness/index-nes.html';
+        } else if (senha === '1111') {
+            window.location.href = '../../../Profiles/1 - Vinnycius/index-vin.html';
+        } else if (senha === '2222') {
+            window.location.href = '../';
+        } else if (senha === '2509') {
+            window.location.href = '../../../Profiles/4 - Nori/index-nor.html';
+        } else {
+            alert('Senha incorreta. Tente novamente.');
+        }
+    });
+</script>
+
+</body>
+</html>

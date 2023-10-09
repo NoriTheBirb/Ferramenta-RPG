@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "TituloCyber";
+    src: url("recursos/Aquire-BW0ox.otf");
+}
+
+*{
+    font-family: "TituloCyber";
+}
+
+:root{
+    --CorFonteRoxo: #A700DF;
+    --corPreto: #070908;
+    --CorFonteBranco: #BCE6DA;
+    --corRoxoEscuro: #14081C;
+    --cor5: #05080D; 
+}
+
+html {
+    background-image: url("../imagens/20231003_203541.gif");
+}
+
+/* Menu do lado */
+main {
+    width: 150px;
+    background-color: var(--corPreto);
+    position: fixed;
+    height: 100%;
+    
+}
+
+main > a#voltar {
+    position: absolute;
+    top: 90%;
+    left: 24%;
+    
+    width: 50%;
+}
+
+p {
+    border: solid;
+    border-radius: 10px;
+    height: 4%;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a {
+
+    text-decoration: none;
+    text-align: center;
+}
+
+.selecionado{
+    border-color: var(--CorFonteRoxo);
+    color: var(--corPreto);
+    background-color: var(--CorFonteBranco);
+    
+}
+
+.nselecionado {
+    border-color: var(--CorFonteBranco);
+    color: var(--CorFonteRoxo);
+    background-color: var(--corPreto);
+}
+
+.nselecionado:hover {
+    border-color: var(--CorFonteRoxo);
+    color: var(--corPreto);
+    background-color: var(--CorFonteBranco);
+}
+
+#voltar {
+    width: 92%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5%;
+    left: -11.2%;
+    width: 99.5%;
+    height: 18.1%;
+}
+
+
+/* Parte de desing da pagina */
+
+
+content{
+    border: solid;
+    border-color: #BCE6DA;
+    display: inline;
+    position: absolute;
+    top: 1%;
+    left: 12%;
+    width: 87%;
+    height: 97%;
+    opacity: 100%;
+}
+
+div#box1 {
+    border: solid;
+    border-color: #BCE6DA;
+    display: inline;
+    position: absolute;
+    top: -0.4%;
+    left: -0.2%;
+    width: 80%;
+    height: 71%;
+}
+
+div#box2 {
+    border: solid;
+    border-color: #BCE6DA;
+    display: inline;
+    position: absolute;
+    top: 71%;
+    left: -0.2%;
+    width: 60%;
+    height: 28.3%;
+}
+
+div#box3 {
+    border: solid;
+    border-color: #BCE6DA;
+    display: inline;
+    position: absolute;
+    top: 0.4%;
+    left: 80.8%;
+    width: 18.5%;
+    height: 71%;
+}
+
+div#box4 {
+    border: solid;
+    border-color: #BCE6DA;
+    display: inline;
+    position: absolute;
+    top: 72.6%;
+    left: 60.8%;
+    width: 38.5%;
+    height: 26.1%;
+}
+
+div#box5 {
+    border: solid;
+    border-color: #BCE6DA;
+    display: inline;
+    position: absolute;
+    top: -0.4%;
+    left: -0.2%;
+    width: 79.9%;
+    height: 8.1%;
+}
